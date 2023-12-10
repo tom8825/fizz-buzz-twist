@@ -9,4 +9,12 @@
   <ItemGroup>
     <PackageReference Include="NUnit" Version="4.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="ParseRules\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="ParseRules\" />
+  </ItemGroup>
 </Project>

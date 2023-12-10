@@ -6,12 +6,19 @@ public class FizzBuzzTests
 {
     private FizzBuzz _fb;
     private int rangeMin = 1;
-    private int rangeMax = 10;
+    private int rangeMax = 100;
 
     [SetUp]
     public void Setup()
     {
         _fb = new FizzBuzz(rangeMin, rangeMax);
+    }
+
+    [Test]
+    public void fizzbuzz_getParseRules()
+    {
+        var rules = _fb.GetParseRules();
+        Assert.That(rules, Is.Not.Null);
     }
 
     [Test]
@@ -34,9 +41,9 @@ public class FizzBuzzTests
     }
 
     [Test]
-    public void fizzbuzz_index5_equals_FizzBuzz()
+    public void fizzbuzz_index14_equals_FizzBuzz()
     {
-        Assert.That(_fb.output[5], Is.EqualTo("FizzBuzz"));
+        Assert.That(_fb.output[14], Is.EqualTo("FizzBuzz"));
     }
 
     [Test]
