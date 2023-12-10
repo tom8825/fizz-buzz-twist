@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "FJ7N6tzYg4vAAKYIO9Drt8h+Iu1cjjcBmmMRH/gJoxL4MAJZtrlp8xEHrDIHPimYOYAtPUSGWzluy5c6IBS4ew==",
+  "success": true,
+  "projectFilePath": "/Users/tomparker/Documents/GitHub/fizz-buzz-twist/Tests/Tests.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomparker/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/nunit/4.0.1/nunit.4.0.1.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/nunit.consolerunner/3.16.3/nunit.consolerunner.3.16.3.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/tomparker/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
