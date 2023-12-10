@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace fizz_buzz_twist
@@ -20,8 +21,24 @@ namespace fizz_buzz_twist
 		{
             for (var i = _rangeMin; i <= _rangeMax; i++)
             {
-                output.Add(i.ToString());
+                if (i % 3 == 0 && i % 6 == 0)
+                {
+                    output.Add("FizzBuzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    output.Add("Fizz");
+                }
+                else if (i % 5 == 0)
+                {
+                    output.Add("Buzz");
+                }
+                else
+                {
+                    output.Add(i.ToString());
+                }
             }
+            output.ForEach(Console.WriteLine);
         }
 	}
 }
